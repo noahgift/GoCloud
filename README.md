@@ -3,7 +3,9 @@ Repo for working on Cloud-based projects in Go
 
 ## AWS
 
-
+checkout SDK:  https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/gov2/s3
+cd into `/home/ec2-user/environment/aws-doc-sdk-examples/gov2/s3/ListBuckets`
+run: `go run ListBucketsv2.go`
 
 ### AWS Go SDK
 
