@@ -1,16 +1,3 @@
-1.  Install go: `make setup-go`
-2.  add go to path: `PATH=/usr/local/go/bin:$PATH`
-3.  install:
-
-```bash
-go mod init example/phraseGen
-go get gopkg.in/urfave/cli.v1
-touch phraseGenerator.go
-
-```
-paste code
-
-```go
 package main
 
 import (
@@ -43,18 +30,3 @@ func main() {
 
 	app.Run(os.Args)
 }
-
-```
-
-run it:
-
-```
-ec2-user:~/environment/GoCloud/phraseGenerator (main) $ go run phraseGenerator.go --phrase "hello world" --count 5         
-hello world
-hello world
-hello world
-hello world
-hello world
-```
-
-
